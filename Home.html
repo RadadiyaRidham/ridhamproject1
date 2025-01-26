@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamborghini</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      text-transform: uppercase;
+      color:gray;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .car-section {
+      margin-bottom: 3rem;
+    }
+
+    .car-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      color:gray;
+    }
+
+    .car-section p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .car-gallery {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .car-gallery img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid gray;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .video-background{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+  </style>
+</head>
+<body>
+    <video class="video-background" autoplay loop muted>
+        <source src="projectnew1.mp4" type="video/mp4">
+    </video>
+  <br><br><header>
+    <h1>Welcome to Lamborghini</h1>
+  </header>
+  <main class="content">
+    <section class="car-section">
+      <h2>About Lamborghini</h2>
+      <p>Lamborghini is a world-renowned brand known for its luxury sports cars that combine breathtaking design, cutting-edge technology, and unmatched performance. From its sleek bodywork to its roaring engines, every Lamborghini is a masterpiece.</p>
+    </section>
+    <section class="car-section">
+      <h2>Featured Models</h2>
+      <div class="car-gallery">
+        <img src="Lamborghini-aventador.jpg" alt="Lamborghini Aventador">
+        <img src="lamborghini huracan.jpg" alt="Lamborghini Huracan">
+        <img src="lamborghini-urus.jpg" alt="Lamborghini Urus">
+        <img src="lamborghini-murcielago.jpg" alt="Lamborghini Reventón">
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Lamborghini. Designed for enthusiasts of speed and luxury.<a style="color:#ffffff; font-size: larger;position: absolute;left: 1350px;" href="project.html">back to main page</a>
+  </footer>
+</body>
+</html>
